@@ -59,7 +59,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  text-align: left;
+  text-align: center;
   background-color: #fff;
 }
 
@@ -551,6 +551,7 @@ pre code {
   padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
+  margin-top: 100px;
 }
 
 @media (min-width: 576px) {
@@ -582,8 +583,9 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
-  margin-right: -15px;
-  margin-left: -15px;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
 }
 
 .no-gutters {
@@ -607,6 +609,7 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  
 }
 
 .col {
@@ -1126,6 +1129,7 @@ pre code {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+    
   }
   .col-md-7 {
     -ms-flex: 0 0 58.333333%;
@@ -5254,6 +5258,7 @@ a.badge-dark:focus, a.badge-dark.focus {
   margin-bottom: 2rem;
   background-color: #e9ecef;
   border-radius: 0.3rem;
+  text-align: center;
 }
 
 @media (min-width: 576px) {
@@ -5263,9 +5268,11 @@ a.badge-dark:focus, a.badge-dark.focus {
 }
 
 .jumbotron-fluid {
-  padding-right: 0;
-  padding-left: 0;
-  border-radius: 0;
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+  text-align: center;
 }
 
 .alert {
